@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <meta content="description" content="Here's how to contact me">
+  <meta content="author" content="Rohit Jain">
+  <style>
+    html{
+      font-size: medium; 
+    background-color:#A5F1E9;
+    color: rgb(134, 55, 7);
+    }
+  </style>
+</head>
+<body>
+  <div class="contact pathway">
+    <form action="mailto:rohitathuffin@gmail.com" class="form_example" method="post"enctype="text/plain">
+      <label for="name">Enter your name</label>
+      <input type="text" placeholder="Enter your name" required name="Name">
+      <div class="form_example">
+        <label for="favourite_color">Pick your favourite color :</label>
+        <input type="color" name="Favourite color">
+      </div>
+      <div class="form_example">
+        <label for="DOB">Enter your Date of Birth : </label>
+        <input type="date" name="Date of Birth">
+      </div>
+      <div class="form_example">
+        <label for="password">Enter your Password</label>
+        <input type="password"placeholder="Password"required minlength="8"maxlength="32" name="password">
+      </div>
+      <div class="form_example">
+        <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain your purpose"></textarea>
+      </div>
+      <div class="form_example" name="form_action">
+        <input type="reset">
+        <input type="submit" value="let's go"> 
+      </div>
+      
+    </form>
+  </div>
+</body>
+</html>
