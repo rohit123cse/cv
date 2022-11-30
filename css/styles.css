@@ -1,0 +1,28 @@
+html {
+  font-size: medium;
+  background-color: #b9e0ff;
+  color: rgb(134, 55, 7);
+}
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  height: 0px;
+  background-color: none;
+  border-color: grey;
+  border-width: 5px;
+}
+h2 {
+  color: #2b3a55;
+}
+.education:hover{
+  background-color: white;
+}
+image {
+  border-radius: 50%;
+}
+.education{
+  background-color: #68B984;
+}
+#aboutme{
+  color: black;
+}
